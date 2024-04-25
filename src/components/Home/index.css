@@ -1,0 +1,86 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #dbeafe;
+}
+@media (max-width: 576px) {
+  
+  .new-trip-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .image {
+    height: 80px;
+  }
+
+  .trvael-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .home-container {
+    background-color: white;
+    padding-left: 0;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+
+  .trip-container {
+    order: 0;
+  }
+  .trip-button {
+    margin-bottom: 35px;
+  }
+}
+.trvael-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  width: 100%;
+  padding: 50px;
+  margin-left: 50px;
+}
+.new-trip-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.image-container {
+  order: 1;
+  margin-left: 60px;
+}
+.trip-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.image {
+  height: 300px;
+}
+.paragraph {
+
+}
+.trip-button {
+  background-color: #304766;
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 575px) {
+  
+}
+.horizontal-line {
+  width: 100%;
+  color: black;
+  border: 1px;
+  height: 5vh;
+}

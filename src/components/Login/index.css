@@ -1,0 +1,102 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+.login-container {
+  background-color: white;
+  height: 50%;
+  width: 40%;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .login-container {
+    width: 90%;
+    height: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .form-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .label {
+    font-size: 10px;
+  }
+  .show-password-container {
+    width: 70%;
+  }
+  .button-container {
+    width: 8%;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.heading {
+  text-align: center;
+  font-family: Caveat;
+  font-size: 30px;
+}
+.label {
+  color: black;
+  font-size: 16px;
+  padding-bottom: 4px;
+  padding-top: 8px;
+}
+
+.password-container {
+  height: 3.5vh;
+  width: 100%;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: row;
+}
+.password-input {
+  border: none;
+  outline: none;
+}
+.show-password-container {
+  display: flex;
+  width: 95%;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.show-password-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.button {
+  background-color: #304766;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}

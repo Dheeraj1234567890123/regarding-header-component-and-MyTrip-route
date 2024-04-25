@@ -1,0 +1,46 @@
+.header {
+  background-color: #304766;
+  height: 12vh;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.trip-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.trip-heading {
+  color: white;
+  font-family: Caveat;
+  font-size: 20px;
+  font-style: italic;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.links-container {
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+}
+.button-logout {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 3px;
+  border-radius: 2px;
+}
+@media screen and (max-width: 576px) {
+  .header {
+    display: none;
+  }
+}
